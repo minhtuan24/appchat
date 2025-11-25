@@ -1,4 +1,4 @@
-project('demo-cpp', 'c', 'cpp', 'objc', 'objcpp',
+project('demo-cpp', 'c', 'cpp',
 version : '0.1.0',
 default_options : ['cpp_std=c++17']
 )
@@ -67,8 +67,6 @@ executable('baitap59', 'src/baitap59.c',
     dependencies: deps,
     link_args: link_args
 )
-
-
 
 executable('array', 'src/array.c',
     include_directories: include_dirs,
